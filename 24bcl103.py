@@ -1,20 +1,9 @@
+def major_minor() :
+    age = int(input ("enter your age"))
+    if age < 18 :
+        print("you are still minor.")
+    else:
+        print("you have become major , now.")
 
-# // Add two number...
-a= float(input("enter a number:"))
-b=float(input("enter the another number:"))
-c=a+b
-print(c)
-print(a,b,c)
-print("answer =",c)
-print(a"+",b,'=',c)
-print(a,b,c,end="shivam")
-print(a,b,c,sep="#")
-
-
-
-
-print(type(a))
-print(type(b))
-print(id(a))
-print(id(b))
-
+major_minor()        
+major_minor()
